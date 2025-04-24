@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sample_nativecpp_dll_window", "sample_nativecpp_dll_window\sample_nativecpp_dll_window.vcxproj", "{D7781C80-364E-4002-8909-47031F3D34D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dll_call", "dll_call\dll_call.csproj", "{74CB46AA-D55D-47E2-953D-22E5FC6A84B5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D7781C80-364E-4002-8909-47031F3D34D2} = {D7781C80-364E-4002-8909-47031F3D34D2}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7781C80-364E-4002-8909-47031F3D34D2}.Debug|x64.ActiveCfg = Debug|x64
+		{D7781C80-364E-4002-8909-47031F3D34D2}.Debug|x64.Build.0 = Debug|x64
+		{74CB46AA-D55D-47E2-953D-22E5FC6A84B5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{74CB46AA-D55D-47E2-953D-22E5FC6A84B5}.Debug|x64.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85E92A29-BEB5-4361-887C-288600215026}
+	EndGlobalSection
+EndGlobal

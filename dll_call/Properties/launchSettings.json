@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "dll_call": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
